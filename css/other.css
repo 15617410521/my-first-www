@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/* 头部背景 */
+.top_bg img{
+    width: 100%;
+    height: 350px;
+    /* margin-bottom: 20px; */
+}
+
+
+
+.title_bg{
+    width: 100%;
+    height: 650px;
+    background: #f7f5f4;
+    padding-top: 30px;
+}
+.title_top{
+    width: 1028px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+    
+    margin-bottom: 30px;
+
+}
+
+.title_top ul{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+.title_top ul li{
+    float: left;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    /* padding: 0 30px; */
+
+    border-right:1px solid #999999 ;
+}
+.title_top ul li a{
+    font-size: 14px;
+    color: #5b5a5a;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 30px;
+    
+}
+.title_top ul li p{
+    width: 128px;
+    height: 2px;
+    background: rgb(175, 19, 19);
+    margin-top: 20px;
+    display: none;
+}
+.title_top ul li:hover p{
+    display: block;
+}
+
+
+
+.title_top_bot{
+    width: 1028px;
+    margin: auto;
+}
+.title_c{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.title_top_bot .p1{
+    float: left;
+    font-size: 18px;
+}
+.title_top_bot .p1 span{
+    font-size: 12px;
+    color: #999999;
+}
+.title_top_bot .p2{
+    float: right;
+    font-size: 12px;
+
+}
+.title_top_bot .title_c .p2 a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 12px;
+}
+.title_bg h3{
+     width: 1028px;
+     height: 1px;
+     background: #b9b7b7;
+     margin-bottom: 20px;
+}
+/* 详细内容内容开始 */
+.title_bot{
+    width: 1028px;
+    margin: auto;
+}
+.title_bot_left{
+    position: relative;
+    float: left;
+}
+.title_bot_left h5{
+    width: 250px;
+    height: 100px;
+    background: #ac0900;
+    position: absolute;
+    bottom: -95px;
+    left: 0;
+
+}
+.title_bot_left h5 .mz{
+
+    text-align: center;
+   
+
+}
+.title_bot_left h5 .mz h1{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 60px;
+    font-weight: normal;
+}
+.title_bot_left h5 .mz h6{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+
+.title_bot_right{
+    width: 680px;
+    float: right;
+    margin-top: 30px;
+}
+.title_bot_right p{
+    font-size: 16px;
+    line-height: 34px;
+    color: #242020;
+    text-indent: 2em;
+}
+
+
+/* 关于东方第五板块荣誉部分 */
+.line{
+    width: 1028px;
+    margin: auto;
+}
+.line ul li {
+    float: left;
+    margin: 23px;
+    width: 295px;
+}
+.line ul li img{
+    width: 295px;
+    height: 200px;
+}
+/* .line ul li p{
+    width: 295px;
+} */
+
+
+/* 选页导航 */
+
+.pag{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    margin-top: 20px;
+
+}
+.pag ul li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.pag ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+.pag ul li:hover{
+    
+    background: red;
+}
+.pag ul li:hover a{
+    color: #ffffff;
+}
+
+
+
+/* 表格板块开始 */
+.table{
+    width: 1000px;
+    margin: auto;
+}
+.perform{
+    height: 34px;
+}
+.perform div{
+    height: 34px;
+    float: left;
+    margin: 0 1px;
+    text-align: center;
+    background:#ac0900;
+    line-height: 34px;
+    color: #ffffff;
+}
+.perform .arrange{
+    width: 170px;
+}
+.perform .arrange4{
+    width: 482px;
+}
+
+
+
+.content div{
+     height: 125px;
+     border-bottom: 1px solid #999999;
+     border-right: 1px solid #999999;
+     float: left;
+     margin: 0 1px;
+}
+.content .arrange{
+    width: 169px;
+    line-height: 139px;
+    text-align: center;
+}
+.content .arrange4{
+    width: 481px;
+}
+
+
+
+
+/* 新闻界面 */
+.newsk_bg{
+    width: 1000px;
+    margin: auto;
+}
+.newsk_bg a{
+    color: #000000;
+    text-decoration: none;
+}
+.newsk_top_bg{
+    width: 315px;
+    height: 375px;
+    float: left;
+    margin: 20px 5px 40px 10px;
+    background: #eef1d5;
+}
+.newsk_top_bg h3{
+    width: 285px;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.newsk_top_bg p{
+    
+    width: 285px;
+    margin: 10px 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+
+
+
+/* newsk开始 */
+.black{
+    width: 1000px;
+    margin: auto;
+}
+ .black a:hover h2 , .black a:hover p{
+    color: red;
+
+}
+.black a:hover .black_one_left {
+    background: red;
+}
+.black_one{
+    width: 500px;
+    height: 80px;
+    float: left;
+    margin: 10px 0;
+}
+.black_one_left{
+    width: 70px;
+    height: 80px;
+    background: #a5a2a2;
+    float: left;
+}
+.black_one_left p{
+   width: 53px; 
+   height: 2px;
+   background: #ffffff;
+   margin: 0 7px;
+}
+.black_one_left h3{
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 16px;
+}
+.black_one_right{
+    width: 390px;
+    height: 90px;
+    float: left;
+    margin: 10px;
+    
+}
+.black_one_right h2{
+    font-size: 18px;
+    /* width: 20px; */
+    height: 20px;
+    color: #000000;
+    overflow: hidden;
+    line-height: 20px;
+    font-weight: normal;
+}
+.black_one_right p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #999999;
+    width: 390px;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 项目介绍 */
+.center{
+    width: 1000px;
+    margin: auto;
+}
+.center .red .redk{
+    width: 200px;
+    height: 54px;
+    background: #ac0900;
+} 
+.center .red .redk h2{
+   color: #ffffff;
+   font-size: 18px;
+   text-align: center;
+   line-height: 54px;
+   font-weight: normal;
+}
+.center .red .redk p{
+    width: 1000px;
+    height: 2px;
+    background:#ac0900 ;
+}
+.pic_red{
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+.pic_red_perform_one{
+    height:320px ;
+    position: relative;
+    float: left;
+    margin: 0  19px;
+}
+
+.pic_red_perform_one .xred{
+    width: 220px;
+    height: 120px;
+    background:rgba(100, 0, 0, 0.7) ;
+    padding: 0 20px 20px 20px;
+    position: absolute;
+    bottom:30px;
+    left: 20px;
+}
+.pic_red_perform_one .xred h2{
+    font-size: 22px;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.pic_red_perform_one .xred p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+}
+.pic_red_perform{
+    margin-top: 20px;
+}

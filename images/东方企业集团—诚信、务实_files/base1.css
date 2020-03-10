@@ -1,0 +1,167 @@
+body,html{min-width:1000px;}
+
+.layout{position:relative;}
+.layout .wrap{position:relative;overflow:hidden;padding-top:16px;}
+
+.home-banner{position:relative;overflow:hidden;width:100%;height:350px;min-width:1000px;}
+.banner-drops,.banner-drops .drops{width:100%;height:590px;min-width:1000px;}
+
+.neiye_nav{ width:1000px; height:auto; margin:0 auto; overflow:hidden; text-align:center; margin-top:20px; padding-bottom:21px; border-bottom:1px #d5d5d5 solid;}
+.neiye_nav span{ padding:0 30px; border-right:1px #5b5a5a solid;}
+.neiye_nav a:last-child span{ border-right:none;}
+.neiye_nav a.heng{border-bottom:3px #b80b00 solid; padding-bottom:17px; display: inline-block;}
+.neiye_nav a:hover{ border-bottom:3px #b80b00 solid; padding-bottom:17px;}
+
+.neiye_dqwz{ width:970px; padding: 0  15px; height:34px; line-height: 34px; overflow:hidden; margin:0 auto; margin-top:40px;border-bottom:1px #dfdfdf solid; margin-bottom:20px;}
+.neiye_dqwz_l{ float:left; font-size:20px; color:#000; line-height:20px;}
+.neiye_dqwz_l p{ float:left; font-size: 18px;}
+.neiye_dqwz_l span{ font-size:12px; color:#999;float:left; padding-top: 8px;}
+.neiye_dqwz_r{ float:right; font-size:12px; color:#333333;}
+.neiye_dqwz_r a{ color:#333333;font-size:12px;}
+.neiye_dqwz_r span{font-size:12px;}
+.neiye_dqwz_r a:last-child{ color:#b80b00; }
+
+.imgpic{ width: 250px; height: 300px;position: relative; float: left; margin-right: 35px;}
+.jianjie{ position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; background: #ac0900; text-align: center; color: #fff; }
+
+.xinxi{ width: 695px; float: right; padding:15px 0;}
+.xinxi p{ font-size: 16px; line-height: 34px; text-indent: 2em;}
+
+.neirong{ padding:0 10px 50px; }
+
+.aboutpic1{ width: 333px; height: 211px;float: left; margin-right: 35px;padding: 15px 0;}
+.aboutxinxi{ width: 628px; float: left; padding:15px 0;}
+.aboutxinxi p{ font-size: 16px; line-height: 34px; text-indent: 2em;}
+
+.news_tuwen{ width:1000px;margin:0 auto; overflow:hidden;}
+.news_tuwen a{ width:313px;background:url(../images/xinwen_tuwenbg.png) no-repeat #f6f2ea bottom 0 left 0; padding-bottom:40px; float:left; margin-left:11px;} 
+.news_tuwen dl dt{ width:290px; height:40px; margin:0 auto; overflow:hidden; line-height:20px; font-size:18px; color:#000; margin-top: 6px;}
+.news_tuwen dl dd{ width:290px; height:68px; margin:0 auto; font-size:14px; line-height:24px; color:#666666; margin-top:8px; overflow: hidden; text-indent:28px; margin-bottom: 8px;}
+.news_tuwen dl img{border-bottom:4px #a27e33 solid; display: block; width: 310px; height: 200px;}
+.news_list{ width:1000px; height:auto; margin:0 auto; overflow:hidden; border-top:1px #e6e6e6 solid; margin-top:32px;}
+.news_list a:hover dl.news_list_day{ background:#b80b00;}
+.news_list a:hover dl.news_list_new dt{ color:#b80b00;}
+.news_list a:hover dl.news_list_new dd{ color:#b80b00;}
+.news_list ul li{ float: left; height:auto; overflow:hidden; padding:20px 0; border-bottom:1px #e6e6e6 dashed;}
+
+.news_list ul li a{ margin-right: 20px; width: 480px; height: 80px; }
+.news_list_day{ width:70px; height:80px; background:#999; float:left;}
+.news_list_day dt ,.news_list_day dd{ color:#fff; font-size:16px; width:58px; text-align:center; padding:10px 0; margin:0 auto;}
+.news_list_day dt{ border-bottom:1px #fff solid;}
+.news_list_new{ width:390px; height:80px; overflow:hidden; margin-left:20px; float:left;}
+.news_list_new dt{ font-size:18px; color:#000; height:30px; line-height:30px; overflow:hidden;}
+.news_list_new dd{ font-size:12px; color:#999; height:50px; line-height:24px; overflow:hidden;}
+
+.digg{margin-left:190px; margin-top:50px; padding:0; text-align:left; font-size:14px; margin-bottom:40px; overflow:hidden; }
+.digg a{ display:block; float:left; padding:5px 12px; margin:0 0 0 8px; border:1px solid #e1e2e3; line-height:20px; height:20px; color:#fff; background:#b80b00; text-decoration:none; }
+
+.digg span{ display:block; float:left; padding:5px 0; line-height:20px; height:20px; }
+.digg span.current { padding:5px 12px; margin:0 0 0 8px; color:#555; font-weight:bold; }
+
+
+.tit_pro{ border-bottom: 2px #ac0900 solid; width: 100%; }
+.tit_pro span{ width: 200px; height: 54px; background: #ac0900; display: block;/*border: 1px solid #fff;*/ color: #fff; display: block; text-align: center; line-height: 54px;font-size: 18px; }
+
+.listpic li{ position: relative; padding-bottom: 87px; 
+	float: left;margin:28px 15px;}
+.listpic li.zhong{ margin:28px 47px;}
+.listpic img{ width: 293px; height: 200px; text-align: center; overflow: hidden; }
+
+.dllist{ width: 242px; height: 120px; background: #ac0900; color: #fff; padding: 9px; position: absolute; bottom: 0px;  left: 17px; z-index: 100; }
+.dllist dt{ font-size: 22px; line-height:40px;  text-align: center; }
+.dllist dd{ font-size: 15px;line-height: 20px;margin: 9px;text-overflow:ellipsis;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;  }
+.listpic li a:hover{  border: 1px #a8a8a8 solid; display: block; }
+.listpic li a{ display: block;border: 1px solid #fff; float: left; height: 200px;  }
+
+.project_list li{ margin: 0 3px; width: 1000px; height: 350px; overflow: hidden; padding-bottom: 50px; }
+
+
+.table{ background:#FFF;border-color:#f7f5f4; border-collapse: collapse; border:1px #f7f5f4 solid;margin-bottom:50px}
+.table th{ background:#ac0900; color:#FFF; padding:8px 0;}
+.table td{ padding:15px 0;}
+.table td.padd{padding:18px 15px;}
+
+
+
+
+
+.dl{ float: left;border-bottom: 1px #797979 dashed; text-align: center; margin: 0 13px;}
+.dlpadd{padding:0 32px;}
+.dl dt{ height: 50px; line-height: 50px; padding-bottom: 8px; }
+.dltit{ font-size: 14px; color: #000;padding:8px 0; }
+.ddtit{font-size: 14px; color: #797979;padding-bottom: 17px;}
+
+
+
+
+
+
+
+
+
+/*统一页面布局 内容*/
+
+.news_xiangqing_tit{ width:1000px; margin:0 auto; overflow:hidden; text-align:center; padding-bottom:8px; border-bottom: 1px #999 dashed; margin-bottom: 15px;}
+.news_xiangqing_titp01{ font-size:30px; color:#000; line-height:50px;}
+.news_xiangqing_titp02{ font-size:18px; color:#666; height:30px; line-height:30px;}
+.news_xiangqing_titp03{ width:700px; margin:0 auto; margin-top:12px;}
+.news_xiangqing_titp03 span{ font-size:14px; color:#999;}
+.news_xiangqing_titspan01{ float:left; margin-right:18px;}
+.news_xiangqing_titspan02{ float:left;}
+.news_xiangqing_titspan03{ float:right;}
+
+
+.juneirong p{ text-indent: 2em;color: #666666;line-height: 2; font-size: 16px; }
+.juneirong p img{ width: auto; padding: 15px 0;}
+
+.juneirong1 p{ color: #666666;line-height: 2; font-size: 16px; }
+.juneirong1 p img{ width: 100%;padding: 15px 0;}
+
+
+.chunlei_list li{ float: left; width: 330px; margin:0 1px; }
+.chunlei_list li img{ width: 100%; }
+.chunlei_list li p{ padding: 12px 0; line-height: 22px; text-indent: 2em;}
+
+
+.rc_left{ float: left;width: 348px; height: 486px;}
+.rc_left img{width:100%; }
+.rc_right{word-wrap:break-word ;  float: right;width: 607px; height: 465px; background: #fff; padding:21px 18px 0;}
+.rc_tit{ color: #ac0900; font-size: 38px; border-bottom: 1px #ac0900 dashed; padding-bottom: 5px; margin-bottom: 14px; }
+.rc_con{ text-indent: 2em; line-height: 22px;overflow: hidden;  text-overflow:ellipsis;display: -webkit-box;  -webkit-line-clamp: 6;  -webkit-box-orient: vertical;  }
+
+
+.pro_tit{ font-size: 26px; padding: 26px 0; }
+.pro_con p{text-indent: 2em; line-height: 28px; width: 100%;}
+.pro_con  img{ width: 95%;padding: 15px 0;}
+
+
+
+
+.cn_about6 li{ float: left;width: 295px; height: auto; margin:6px 17px;}
+.cn_about6_img img{ width: 100%;height: 100%;  }
+.cn_about6_img{ width: 295px; height: 200px; }
+
+.cn_about6_p{font-size: 14px; padding:8px 0 ;line-height: 20px; height: 30px;}
+
+
+
+.ax_1 li{float: left;width: 328px; margin:0 2px 9px;}
+.ax_dl{width: 304px; height: ; overflow: hidden; margin: 0 12px; }
+.ax_dt{width: 304px; height: 198px; overflow: hidden;}
+.ax_dt img{ width: 100%; height: 100%; }
+.ax_sp{ text-indent: 2em; margin:12px 0 12px 0;  line-height: 18px;overflow: hidden;  text-overflow:ellipsis;display: -webkit-box;  -webkit-line-clamp: 4;  -webkit-box-orient: vertical; height: 72px;}
+
+
+
+
+
+.talent_list{  margin:20px; position: absolute; bottom: 0 ;right: 0}
+.talent_list li{ width: 180px; height: 180px; float: left; margin: 0 10px; overflow: hidden;}
+.talent_list li img{ width: 100%; height: 100%;}
+
+
+
+
+
+
+
